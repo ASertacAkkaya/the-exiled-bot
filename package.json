@@ -1,0 +1,33 @@
+{
+  "name": "the-exiled-bot",
+  "version": "1.0.0",
+  "description": "A general purpose DiscordJS bot (v14).",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx cross-env NODE_ENV=dev npx nodemon index",
+    "start": "npx cross-env NODE_ENV=prod node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASertacAkkaya/the-exiled-bot.git"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "ASertacAkkaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASertacAkkaya/the-exiled-bot/issues"
+  },
+  "homepage": "https://github.com/ASertacAkkaya/the-exiled-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20"
+  }
+}
